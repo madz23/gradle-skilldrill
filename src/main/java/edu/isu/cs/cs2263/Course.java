@@ -7,8 +7,15 @@ public class Course {
     private String title;
 
     //constructor
-    public Course() {
+
+    public Course() {}
+
+    public Course(int number, String subject, String title) {
+        this.number = number;
+        this.subject = subject;
+        this.title = title;
     }
+
 
     // getter and setter methods
 

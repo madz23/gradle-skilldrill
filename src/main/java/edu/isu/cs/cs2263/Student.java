@@ -7,8 +7,10 @@ public class Student {
 
 
     //constructor
-
-    public Student() {
+    public Student () {}
+    public Student(String first, String last) {
+        firstName = first;
+        lastName = last;
     }
 
     //getter and setter methods

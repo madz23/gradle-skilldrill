@@ -1,6 +1,9 @@
 module edu.isu.cs.cs2263.main {
     requires javafx.controls;
     requires com.google.common;
-    exports edu.isu.cs.cs2263.javafx;
+    requires com.google.gson;
+//    exports edu.isu.cs.cs2263;
+    opens edu.isu.cs.cs2263 to com.google.gson;
+  //  opens edu.isu.cs.cs2263 to com.google.gson;
 
 }
